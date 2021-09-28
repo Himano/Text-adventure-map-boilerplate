@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin:  0;
+    padding: 0;
+}
+
+#mapLocation {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+span {
+    font-size: 2rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  background-image: url(/images/warrior.png);
+    background-size: cover; 
+    */
+}
+
+.grid {
+    height: 400px;
+    width: 400px;
+    background-color: lightgrey;
+
+    display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-item {
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: rgba(255, 0, 0, 0.0);
+}
+
+button {
+    padding: 5px;
+    margin: 4px;
+}
+
+.player {
+    border: 1px solid black;
+}
+
+.start {
+    color: black;
+}
